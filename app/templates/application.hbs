@@ -1,4 +1,21 @@
-<h2>Super Pebolim</h2>
-
-{{#link-to "index"}}Página Inicial{{/link-to}} || {{#link-to "testes"}}Testes{{/link-to}} <br />
-{{outlet}}
+<div class="ui container">
+  <!-- menu -->
+  <div class="ui borderless main menu">
+    <div class="ui text container">
+      <div href="#" class="header item">
+        <img class="logo" src="">
+        Pebolim 0.1 &nbsp;<em>beta</em>
+      </div>
+      {{#link-to "index" class="item"}}Jogo{{/link-to}}
+      {{#link-to "admin" class="item"}}Admin{{/link-to}}
+      {{#link-to "regras" class="item"}}Regras{{/link-to}}
+    </div>
+  </div>
+  <!-- ./menu -->
+  {{outlet}}
+</div>
+<div class="ui inverted vertical footer segment">
+  <div class="ui center aligned container">
+    <p>Feito com amor e open source. Código disponível no Github</p>
+  </div>
+</div>

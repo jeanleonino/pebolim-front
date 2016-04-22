@@ -1,7 +1,19 @@
 # Pebolim-front
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Pebolim front é um projeto para brincar com Bluemix e a mesa de pebolim com sensores e um raspberry controlador.
+
+## To do
+
+- [ ] Escrever as regras para campeonatos
+- [ ] `feature`: "cara ou coroa" para definir quem começa a partida
+- [ ] `feature`: tela admin
+- [ ] `feature`: tela jogo
+- [ ] `feature`: tela torneio
+- [ ] `feature`: tela regras
+- [ ] Configurar um ambiente de deploy do front URL (pagefront)
+- [ ] Definir interface de admin
+- [ ] Definir API REST
+
 
 ## Prerequisites
 
